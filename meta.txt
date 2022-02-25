@@ -1,0 +1,1 @@
+DOCKER_BUILDKIT=1 LABEL_STUDIO_HOST=https://ls.aibird.me docker-compose up -d
