@@ -1,0 +1,46 @@
+<View>
+  <View style="display:flex;align-items:start;gap:8px;flex-direction:column">
+    <Image name="image" value="$image" zoom="false" zoomControl="true" rotateControl="false"/>
+    <View>
+      <Filter toName="label" minlength="0" name="filter"/>
+      <RectangleLabels name="label" toName="image" showInline="true">
+        <Label value="Northern Cardinal" background="#FFA39E"/>
+        <Label value="Tufted Titmouse" background="#D4380D"/>
+        <Label value="Carolina Wren" background="#FFC069"/>
+        <Label value="Mourning Dove" background="#AD8B00"/>
+        <Label value="House Finch" background="#D3F261"/>
+        <Label value="American Goldfinch" background="#389E0D"/>
+        <Label value="Red-bellied Woodpecker" background="#5CDBD3"/>
+        <Label value="Carolina Chickadee" background="#096DD9"/>
+        <Label value="Downy Woodpecker" background="#ADC6FF"/>
+        <Label value="Dark-eyed Junco" background="#9254DE"/>
+        <Label value="Eastern Bluebird" background="#F759AB"/>
+        <Label value="Blue Jay" background="#FFA39E"/>
+        <Label value="White-breasted Nuthatch" background="#D4380D"/>
+        <Label value="American Robin" background="#FFC069"/>
+        <Label value="Spotted/Eastern Towhee (Rufous-sided Towhee)" background="#AD8B00"/>
+        <Label value="White-throated Sparrow" background="#D3F261"/>
+        <Label value="Pine Siskin" background="#389E0D"/>
+        <Label value="Chipping Sparrow" background="#5CDBD3"/>
+        <Label value="Brown Thrasher" background="#096DD9"/>
+        <Label value="Purple Finch" background="#ADC6FF"/>
+        <Label value="Northern Mockingbird" background="#9254DE"/>
+        <Label value="Song Sparrow" background="#F759AB"/>
+        <Label value="Pine Warbler" background="#FFA39E"/>
+        <Label value="Yellow-rumped Warbler" background="#D4380D"/>
+        <Label value="Brown-headed Nuthatch" background="#FFC069"/>
+        <Label value="American Crow" background="#AD8B00"/>
+        <Label value="Brown-headed Cowbird" background="#D3F261"/>
+        <Label value="House sparrow" background="#389E0D"/>
+        <Label value="animal other than bird" background="#ffa39e"/>
+        <Label value="no animal" background="#D4380D"/>
+        <Label value="cannot identify" background="#FFA39E"/>
+        <Label value="distorted image" background="#D4380D"/>
+        <Label value="severe occultation" background="#FFC069"/>
+        <Label value="squirrels" background="#D4380D"/>
+        <Label value="animal other than bird or fox squirrel" background="#FFC069"/>
+      </RectangleLabels>
+    </View>
+  </View>
+</View>
+<!--{"annotations": [{"result": [ { "original_width": 600, "original_height": 403, "image_rotation": 0, "value": { "x": 4.21455938697318, "y": 11.142857142857142, "width": 32.95019157088122, "height": 46.285714285714285, "rotation": 0, "rectanglelabels": [ "Airplane" ] }, "id": "PIhJM1YYpH", "from_name": "label", "to_name": "image", "type": "rectanglelabels" }, { "original_width": 600, "original_height": 403, "image_rotation": 0, "value": { "x": 30.076628352490417, "y": 44.57142857142857, "width": 32.56704980842912, "height": 46, "rotation": 0, "rectanglelabels": [ "Airplane" ] }, "id": "lnimBBYxMU", "from_name": "label", "to_name": "image", "type": "rectanglelabels" }, { "original_width": 600, "original_height": 403, "image_rotation": 0, "value": { "x": 67.17850287907869, "y": 18, "width": 28.406909788867566, "height": 43.714285714285715, "rotation": 0, "rectanglelabels": [ "Airplane" ] }, "id": "sBjX3KteGU", "from_name": "label", "to_name": "image", "type": "rectanglelabels" }, { "original_width": 600, "original_height": 403, "image_rotation": 0, "value": { "x": 77.01149425287356, "y": 84.57142857142857, "width": 3.4482758620689653, "height": 5.142857142857142, "rotation": 0, "rectanglelabels": [ "Car" ] }, "id": "TIYiC1Bh67", "from_name": "label", "to_name": "image", "type": "rectanglelabels" }, { "original_width": 600, "original_height": 403, "image_rotation": 0, "value": { "x": 85.02879078694816, "y": 83.71428571428572, "width": 2.879078694817658, "height": 4.857142857142856, "rotation": 0, "rectanglelabels": [ "Car" ] }, "id": "mL8hEBkvJt", "from_name": "label", "to_name": "image", "type": "rectanglelabels" }, { "original_width": 600, "original_height": 403, "image_rotation": 0, "value": { "x": 57.08812260536399, "y": 87.42857142857143, "width": 5.363984674329502, "height": 7.142857142857142, "rotation": 0, "rectanglelabels": [ "Car" ] }, "id": "3gpRfF9MkN", "from_name": "label", "to_name": "image", "type": "rectanglelabels" } ] }]} -->
